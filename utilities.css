@@ -1,0 +1,282 @@
+.tup {
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 0 120px 200px 120px;
+    border-color: transparent transparent #042344 transparent;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.tup1 {
+    position: relative;
+    top: 50px;
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 200px 120px 0px 120px;
+    border-color: white transparent transparent transparent;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.tup1>p {
+    text-align: center;
+    top: -180px;
+    font-size: 10px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    color: white;
+    font-size: 11px;
+}
+
+.tup2 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 200px 120px 0px 120px;
+    border-color: white transparent transparent transparent;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.tup2>p {
+    text-align: center;
+    top: -180px;
+    font-size: 10px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+    color: white;
+    font-size: 11px;
+}
+
+p>span {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(64, 104, 105);
+}
+
+.tup p {
+    text-align: center;
+    font-size: 11px;
+    top: 50px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+}
+
+.about>h1 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.desc>p {
+    font-size: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card div h2 {
+    margin-left: 1rem;
+}
+
+.card div button {
+    margin-left: 1rem;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.list-item {
+    margin-top: 2rem;
+    line-height: 2;
+    color: white;
+}
+
+.list-item i {
+    font-size: 19px;
+}
+
+.contact-text {
+    font: 400 15px 'Lato', sans-serif;
+    color: white;
+}
+
+.place {
+    margin-left: 20px;
+}
+
+.phone {
+    margin-left: 20px;
+}
+
+.gmail {
+    margin-left: 20px;
+}
+
+.contact-text a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.contact-us {
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.fname {
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    background-color: rgb(233, 230, 230);
+    border-style: none;
+    outline: none;
+}
+
+.msg {
+    width: 100%;
+    padding: 10px;
+    line-height: 50px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    background-color: rgb(233, 230, 230);
+    border-style: none;
+    align-items: center;
+    outline: none;
+}
+
+.contact-us>button {
+    text-align: right;
+    font-size: 15px;
+    border-style: none;
+    padding: 5px 35px;
+    background-color: red;
+    color: white;
+    border-color: rgb(190, 36, 36);
+    cursor: pointer;
+    outline: none;
+}
+
+.bg .con {
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+footer {
+    background: rgb(57, 57, 151);
+    text-align: center;
+    padding: 1rem 0rem;
+    color: white;
+}
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.bg {
+    background: linear-gradient(-45deg, rgb(33, 45, 235), rgb(235, 160, 89), #35b830, rgb(14, 14, 100), rgb(35, 35, 59));
+    width: 100%;
+    overflow: hidden;
+    background-size: 400% 400%;
+    animation: gradient-bg 10s ease infinite;
+}
+.bg1 {
+    background: linear-gradient(-45deg, rgb(181, 235, 33), rgb(62, 193, 226), #b83096, rgb(245, 10, 10), rgb(10, 160, 48));
+    width: 100%;
+    overflow: hidden;
+    background-size: 400% 400%;
+    animation: gradient-bg 10s ease infinite;
+}
+
+
+@keyframes gradient-bg {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.btn {
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    padding: 5px 5px;
+}
+
+.btn-primary {
+    background: rgb(211, 53, 53);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    border-color: rgb(211, 53, 53);
+    color: rgb(211, 53, 53);
+    box-shadow: 10px 10px 5px rgb(47, 45, 78);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-secondary:hover {
+    background: white;
+    color: white;
+    box-shadow: 10px 10px 5px rgb(47, 45, 78);
+}
